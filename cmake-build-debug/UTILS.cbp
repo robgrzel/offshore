@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="UTILS"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UTILS">
+				<Option output="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/UTILS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/openmpi"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 UTILS"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UTILS/fast">
+				<Option output="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/UTILS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/openmpi"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 UTILS/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/MpiMaster.cpp">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/MpiMaster.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/MpiSlave.cpp">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/MpiSlave.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/OElemCylinder.cpp">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/OElemCylinder.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/OParticle.cpp">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/OParticle.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/OSubSystemWaves.cpp">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/OSubSystemWaves.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/OTime.cpp">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/OTime.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/OWave.cpp">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/OWave.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/OWavenumber.cpp">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/OWavenumber.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/OWaves.cpp">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/OWaves.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/VElem.cpp">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/VElem.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/main.cpp">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/structs.cpp">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/structs.cu">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/structs.cuh">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/MPI_CUDA/structs.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/UtilSources/CUDA_DUMMY.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/UtilSources/Containers/std_utils.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/UtilSources/Containers/std_vector_2d.cpp">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/UtilSources/Containers/std_vector_2d.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/UtilSources/Containers/std_vector_3d.cpp">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/UtilSources/Containers/std_vector_3d.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/UtilSources/Math/FFT.cpp">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/UtilSources/Math/FFT.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/UtilSources/Math/const.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/UtilSources/Math/math.cpp">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/UtilSources/Math/math.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/UtilSources/Math/matrixmath.cpp">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/UtilSources/Math/matrixmath.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/UtilSources/Math/real.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/UtilSources/template_utils.cpp">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/UtilSources/template_utils.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/UtilSources/utils.h">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/CMakeFiles/UTILS.dir/MPI_CUDA/UTILS_generated_structs.cu.o">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/CMakeFiles/UTILS.dir/UTILS_intermediate_link.o">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/CMakeFiles/UTILS.dir/UTILS_intermediate_link.o.rule">
+			<Option target="UTILS"/>
+		</Unit>
+		<Unit filename="/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

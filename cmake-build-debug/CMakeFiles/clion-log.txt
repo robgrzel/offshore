@@ -1,0 +1,9 @@
+/home/robgrzel/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/171.4694.31/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS
+libs
+CUDA
+USE_MPI.OPENMPI
+OPENMP_FOUND_C -fopenmp
+OPENMP_FOUND_CXX -fopenmp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug

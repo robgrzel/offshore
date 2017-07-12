@@ -1,0 +1,3 @@
+/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/robgrzel/9040C22F40C21C3A/MEGASync-P/WORK/Proj/UTILS/cmake-build-debug/CMakeFiles/UTILS.dir
