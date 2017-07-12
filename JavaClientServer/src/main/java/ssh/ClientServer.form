@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ssh.ClientServer">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="213" height="900"/>
+    </constraints>
+    <properties>
+      <focusCycleRoot value="false"/>
+      <font size="20"/>
+      <inheritsPopupMenu value="false"/>
+      <maximumSize width="-1" height="-1"/>
+      <minimumSize width="170" height="900"/>
+      <preferredSize width="166" height="900"/>
+    </properties>
+    <border type="none" title="delli20" title-justification="1" title-position="2"/>
+    <children>
+      <component id="d5f77" class="javax.swing.JButton" binding="DCButton">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="C/DC"/>
+        </properties>
+      </component>
+      <tabbedpane id="a5672" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="160" height="-1"/>
+            <preferred-size width="160" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <name value=""/>
+          <opaque value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="f6143" binding="tabJpanel1" layout-manager="GridLayoutManager" row-count="26" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="CONN"/>
+            </constraints>
+            <properties>
+              <maximumSize width="150" height="649"/>
+              <minimumSize width="150" height="649"/>
+              <name value=""/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="c02db" class="javax.swing.JLabel" binding="JLabel1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <alignmentX value="0.5"/>
+                  <autoscrolls value="false"/>
+                  <background color="-12828353"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <inheritsPopupMenu value="true"/>
+                  <opaque value="true"/>
+                  <text value="des01.eti.pg.gda.pl"/>
+                </properties>
+              </component>
+              <component id="571bc" class="javax.swing.JProgressBar" binding="progressBar1" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="edbb9" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusTraversalPolicyProvider value="false"/>
+                </properties>
+              </component>
+              <component id="cb713" class="javax.swing.JLabel" binding="JLabel2">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <alignmentX value="0.5"/>
+                  <autoscrolls value="false"/>
+                  <background color="-12828353"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <inheritsPopupMenu value="true"/>
+                  <opaque value="true"/>
+                  <text value="des02.eti.pg.gda.pl"/>
+                </properties>
+              </component>
+              <component id="da970" class="javax.swing.JProgressBar" binding="progressBar2">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="33511" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusTraversalPolicyProvider value="false"/>
+                </properties>
+              </component>
+              <component id="92edd" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusTraversalPolicyProvider value="false"/>
+                </properties>
+              </component>
+              <component id="1fff2" class="javax.swing.JLabel" binding="JLabel3">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <alignmentX value="0.5"/>
+                  <autoscrolls value="false"/>
+                  <background color="-12828353"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <inheritsPopupMenu value="true"/>
+                  <opaque value="true"/>
+                  <text value="des03.eti.pg.gda.pl"/>
+                </properties>
+              </component>
+              <component id="42681" class="javax.swing.JProgressBar" binding="progressBar3">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="3bd86" class="javax.swing.JLabel" binding="JLabel4">
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <alignmentX value="0.5"/>
+                  <autoscrolls value="false"/>
+                  <background color="-12828353"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <inheritsPopupMenu value="true"/>
+                  <opaque value="true"/>
+                  <text value="des04.eti.pg.gda.pl"/>
+                </properties>
+              </component>
+              <component id="41230" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusTraversalPolicyProvider value="false"/>
+                </properties>
+              </component>
+              <component id="1b47" class="javax.swing.JProgressBar" binding="progressBar4">
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="13e68" class="javax.swing.JLabel" binding="JLabel5">
+                <constraints>
+                  <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <alignmentX value="0.5"/>
+                  <autoscrolls value="false"/>
+                  <background color="-12828353"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <inheritsPopupMenu value="true"/>
+                  <opaque value="true"/>
+                  <text value="des05.eti.pg.gda.pl"/>
+                </properties>
+              </component>
+              <component id="69ea2" class="javax.swing.JProgressBar" binding="progressBar5">
+                <constraints>
+                  <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="9915c" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusTraversalPolicyProvider value="false"/>
+                </properties>
+              </component>
+              <component id="3680f" class="javax.swing.JLabel" binding="JLabel6">
+                <constraints>
+                  <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <alignmentX value="0.5"/>
+                  <autoscrolls value="false"/>
+                  <background color="-12828353"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <inheritsPopupMenu value="true"/>
+                  <opaque value="true"/>
+                  <text value="des06.eti.pg.gda.pl"/>
+                </properties>
+              </component>
+              <component id="9120" class="javax.swing.JProgressBar" binding="progressBar6">
+                <constraints>
+                  <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="7a00d" class="javax.swing.JLabel" binding="JLabel7">
+                <constraints>
+                  <grid row="18" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <alignmentX value="0.5"/>
+                  <autoscrolls value="false"/>
+                  <background color="-12828353"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <inheritsPopupMenu value="true"/>
+                  <opaque value="true"/>
+                  <text value="des07.eti.pg.gda.pl"/>
+                </properties>
+              </component>
+              <component id="37fc8" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="17" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusTraversalPolicyProvider value="false"/>
+                </properties>
+              </component>
+              <component id="65c34" class="javax.swing.JProgressBar" binding="progressBar7">
+                <constraints>
+                  <grid row="19" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="22444" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="20" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusTraversalPolicyProvider value="false"/>
+                </properties>
+              </component>
+              <component id="b0390" class="javax.swing.JLabel" binding="JLabel8">
+                <constraints>
+                  <grid row="21" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <alignmentX value="0.5"/>
+                  <autoscrolls value="false"/>
+                  <background color="-12828353"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <inheritsPopupMenu value="true"/>
+                  <opaque value="true"/>
+                  <text value="des08.eti.pg.gda.pl"/>
+                </properties>
+              </component>
+              <component id="e5ad" class="javax.swing.JProgressBar" binding="progressBar8">
+                <constraints>
+                  <grid row="22" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="2481c" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="23" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusTraversalPolicyProvider value="false"/>
+                </properties>
+              </component>
+              <component id="5ef52" class="javax.swing.JLabel" binding="JLabel9">
+                <constraints>
+                  <grid row="24" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <alignmentX value="0.5"/>
+                  <autoscrolls value="false"/>
+                  <background color="-12828353"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <inheritsPopupMenu value="true"/>
+                  <opaque value="true"/>
+                  <text value="des09.eti.pg.gda.pl"/>
+                </properties>
+              </component>
+              <component id="a7913" class="javax.swing.JProgressBar" binding="progressBar9">
+                <constraints>
+                  <grid row="25" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+            </children>
+          </grid>
+          <grid id="fd2d1" binding="tabJpanel2" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="SETS"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="c21b4" class="javax.swing.JTextField" binding="textField1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="/home/robgrzel/"/>
+                </properties>
+              </component>
+              <vspacer id="1987e">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="dd1e2" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Local Path"/>
+                </properties>
+              </component>
+              <component id="cf5f4" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="SFTP Path"/>
+                </properties>
+              </component>
+              <component id="387c6" class="javax.swing.JTextField" binding="textField2">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="/home/student/134234"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
