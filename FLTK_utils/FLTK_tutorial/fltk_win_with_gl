@@ -1,0 +1,22 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0303 
+header_name {.h} 
+code_name {.cxx}
+Function {} {open return_type int
+} {
+  Fl_Window {} {open
+    xywh {46 118 325 335} type Double visible
+  } {
+    Fl_Group doublewin {
+      xywh {25 25 75 75}
+      code0 {\#include "Double Win.h"}
+      class Double_Win
+    } {}
+    Fl_Button {} {
+      callback {doublewin->toggleMotion();
+doublewin->redraw();} selected
+      xywh {0 310 325 25}
+      class toggle_spin
+    }
+  }
+} 

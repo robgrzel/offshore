@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/WSPACE/MEGASync-P/WORK/Proj/UTILS/OpenGL/OpenGL_tutorial/OpenGl_Simple/opengl_simple.cpp
+GL/glut.h
+-
+cmath
+-
+
